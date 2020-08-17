@@ -1,3 +1,19 @@
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 h1 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -55,7 +71,7 @@ h1 {
 
 .tab-button:hover {
   border-color: #fff;
-  background-color: hsla(0, 0%, 100%, .27);
+  background-color: hsla(0, 0%, 100%, 0.27);
   color: #fff;
 }
 
@@ -172,17 +188,20 @@ h1 {
 }
 
 .image {
+  position: relative;
+  top: 0px;
   display: block;
-  max-width: 800px;
+  max-width: 100%;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 0px;
   padding-right: 40px;
-  padding-left: 40px;
+  padding-left: 0px;
   float: none;
+  text-align: left;
 }
 
 .div-block-5 {
-  margin-top: 0px;
+  margin-top: 100px;
 }
 
 .image-2 {
@@ -290,14 +309,15 @@ h1 {
 .dropdown-link {
   position: relative;
   display: block;
-  overflow: visible;
   max-width: 100%;
   margin-right: 2%;
-  margin-left: 2%;
+  margin-left: 0%;
+  padding-top: 0px;
+  padding-left: 0px;
   float: none;
   clear: none;
   font-family: 'Open Sans', sans-serif;
-  color: #8d8d8d;
+  color: #000;
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
@@ -336,6 +356,7 @@ h1 {
 
 .image-5 {
   max-width: 600px;
+  margin-top: 24px;
 }
 
 .image-6 {
@@ -353,10 +374,12 @@ h1 {
 
 .dropdown-toggle-2 {
   width: 100%;
+  padding-left: 0px;
 }
 
 .dropdown-toggle-3 {
   width: 100%;
+  padding-left: 0px;
 }
 
 .text-span {
@@ -367,7 +390,56 @@ h1 {
   text-transform: uppercase;
 }
 
-@media (max-width: 991px) {
+.html-embed {
+  width: 100%;
+}
+
+.mask {
+  overflow: visible;
+  min-height: auto;
+}
+
+.slider {
+  height: 800px;
+  margin-bottom: 149px;
+  line-height: 25px;
+}
+
+.image-8 {
+  display: inline-block;
+  max-width: 50px;
+  margin-top: -30px;
+  margin-bottom: -8px;
+  padding-top: 0px;
+  float: none;
+  clear: none;
+}
+
+.heading-6 {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 0px;
+  float: none;
+  clear: none;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.div-block-8 {
+  display: block;
+  text-align: center;
+}
+
+.div-block-9 {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
   .image {
     display: block;
     overflow: visible;
@@ -385,9 +457,18 @@ h1 {
   .div-block-7 {
     padding-bottom: 0px;
   }
+  .slider {
+    height: 700px;
+  }
+  .heading-6 {
+    width: 100%;
+    margin-bottom: 24px;
+    margin-left: 1px;
+    text-align: center;
+  }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .tab-button {
     border-style: none;
   }
@@ -421,12 +502,28 @@ h1 {
   .image-7 {
     max-width: 100%;
   }
+  .slider {
+    height: 500px;
+  }
+  .image-8 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .heading-6 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 28px;
+  }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
+  .container {
+    margin-top: 40px;
+  }
   .tabs-menu {
     width: 100%;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .thumbnail {
     width: 100%;
@@ -440,6 +537,9 @@ h1 {
   .paragraph {
     font-size: 12px;
     line-height: 30px;
+  }
+  .div-block-5 {
+    margin-top: 40px;
   }
   .image-2 {
     width: 100%;
@@ -462,4 +562,12 @@ h1 {
     direction: ltr;
     text-align: center;
   }
+  .slider {
+    height: 300px;
+  }
+  .heading-6 {
+    margin-top: 8px;
+    font-size: 18px;
+  }
 }
+
