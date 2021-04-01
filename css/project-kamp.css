@@ -1784,6 +1784,23 @@ h1 {
     padding-bottom: 100px;
   }
 
+  .text-block-4.red {
+    position: relative;
+    margin-top: 4px;
+  }
+
+  .div-block-12 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .menubutton {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1908,13 +1925,30 @@ h1 {
     padding-left: 30px;
   }
 
+  .heading-12 {
+    margin-bottom: 0px;
+  }
+
+  .heading-12.big {
+    font-size: 30px;
+  }
+
+  .paragraph-2 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
   .image-30 {
     width: 70%;
     margin-bottom: 20px;
   }
 
   .h1.hero-stroked {
-    font-size: 80px;
+    font-size: 60px;
+  }
+
+  .hero-title.community-platform {
+    margin-top: 50px;
   }
 
   .hero-title-bg {
@@ -1926,6 +1960,15 @@ h1 {
 
   .dropdown-navbar {
     padding-left: 0px;
+  }
+
+  .ways-to-support {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .text-block-4.title {
+    font-size: 15px;
   }
 
   .menubutton {
@@ -2103,6 +2146,14 @@ h1 {
     margin-left: 0px;
   }
 
+  .heading-12.big {
+    text-align: left;
+  }
+
+  .paragraph-2 {
+    text-align: left;
+  }
+
   .paragraph-big {
     font-size: 22px;
     line-height: 30px;
@@ -2110,6 +2161,9 @@ h1 {
 
   .paragraph-big.top-margin {
     margin-top: 0px;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
   }
 
   .project-by-link {
@@ -2122,6 +2176,8 @@ h1 {
 
   .share-to-support {
     width: 98%;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
   .image-30 {
@@ -2193,8 +2249,9 @@ h1 {
     width: auto;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 55px;
-    line-height: 50px;
+    font-size: 38px;
+    line-height: 40px;
+    text-align: left;
   }
 
   .hero-title {
@@ -2207,8 +2264,9 @@ h1 {
   }
 
   .stroke.community.cov {
-    padding-right: 10px;
-    padding-left: 10px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .hero-title-bg {
@@ -2227,6 +2285,35 @@ h1 {
 
   .footer {
     height: auto;
+  }
+
+  .body-2 {
+    white-space: normal;
+  }
+
+  .dropdown-list-3.w--open {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .text-block-4.title {
+    position: static;
+    clear: none;
+    text-align: left;
+    white-space: pre-line;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 }
 
