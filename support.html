@@ -1,5 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Dec 03 2020 16:06:07 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Apr 01 2021 19:41:34 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5fb91bf60208df16bc9bc236" data-wf-site="5a37d9885085cc0001bbcb7a">
 <head>
   <meta charset="utf-8">
@@ -7,16 +6,15 @@
   <meta content="support" property="og:title">
   <meta content="support" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/project-kamp-dave.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/components.css" rel="stylesheet" type="text/css">
+  <link href="css/project-kamp.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Bitter:400,700,400italic","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Oswald:200,300,400,500,600,700","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Varela Round:400"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.jpg" rel="apple-touch-icon">
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
 <body class="body-2">
   <div class="div-block-11">
@@ -44,7 +42,7 @@
           <script src="https://donorbox.org/widget.js" paypalexpress="true"></script><iframe allowpaymentrequest="" frameborder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/project-kamp" style="max-width: 500px; min-width: 250px; max-height:none!important" width="100%"></iframe>
         </div>
       </div>
-      <div class="support-option-money reverse"><img src="images/One-Army-Patreon.jpg" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 69vw, (max-width: 991px) 49vw, 35vw" srcset="images/One-Army-Patreon-p-1080.jpeg 1080w, images/One-Army-Patreon.jpg 1500w" alt="" class="image-30">
+      <div class="support-option-money reverse"><img src="images/One-Army-Patreon.jpg" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 69vw, (max-width: 991px) 45vw, 32vw" srcset="images/One-Army-Patreon-p-1080.jpeg 1080w, images/One-Army-Patreon.jpg 1500w" alt="" class="image-30">
         <div class="supporto-option-text-wrapper">
           <h1 class="heading-12">Monthly Support</h1>
           <p class="paragraph-2">Project Kamp is part of <a href="https://onearmy.earth/" target="_blank" class="inline-link">One Army</a>, 500+ people and support our work on a monthly bases! We use a platform called Patreon. This really helps us a lot as we can plan our finances in the long term. Your money will fund research, development, bills, rent, core team salaries, food, hosting etc.</p>
@@ -53,51 +51,78 @@
       </div>
     </div>
     <div class="share-to-support">
-      <h1 class="heading-12">Spread the Knowledge </h1>
-      <p class="paragraph-2">We provide all the information to start a plastic recycling business open-source online. For free. But if people don’t know this information exists they can’t start. So spread it around to make sure it reaches every corner of the world.<br></p>
-      <div class="coup-wrap">
-        <div class="coup-container">
-          <div class="coupon-body-wrap">
-            <div class="form-block w-form">
-              <div class="form-field-inherit w-embed">
-                <!--  This is to clear Webflows default disabled input style  -->
-                <!--  The background color is set to inherit whatever color bg color you choose  -->
-                <style>
-.w-input[disabled], .w-select[disabled], .w-input[readonly], .w-select[readonly], fieldset[disabled] .w-input, fieldset[disabled] .w-select {  
-	cursor: not-allowed;
-	background-color: inherit;
-}
-</style>
-              </div>
-              <form id="wf-form-Coupon-Form" name="wf-form-Coupon-Form" data-name="Coupon Form"><input type="text" class="coupon-field w-input" maxlength="256" name="Coupon-Field" data-name="Coupon Field" placeholder="SAVE20NOW" id="coup-field"></form>
-              <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div>
-              <a data-clipboard-target=".coupon-field" href="#" class="copy-btn w-button">Copy &amp; Share</a>
+      <div class="dev-list">
+        <h1 class="heading-12 big">Sponser <strong>big</strong> development </h1>
+        <p class="paragraph-2">We have a few big and crucial developments in the pipeline. Things that will require additional funding besides our beloved Patreon. This where we could really use the support of you, your company or organisation. Below a list of the current most important updates.<br>*We also like Crypto ;)<br></p>
+        <div data-hover="" data-delay="0" class="sponser-drowdown w-dropdown">
+          <div class="dropdown-toggle-5 w-dropdown-toggle"><img src="images/rx100m7-3q-evf-11.png" loading="lazy" width="50" height="50" alt="">
+            <div class="div-block-12">
+              <div class="text-block-4 title">Better camera gear - €1.5K (second hand?)</div>
+              <div class="text-block-4 red">High priority </div>
             </div>
+            <div class="w-icon-dropdown-toggle"></div>
           </div>
+          <nav class="dropdown-list-3 w-dropdown-list"><img src="images/rx100m7-3q-evf-11.jpeg" loading="eager" alt="" class="image-31">
+            <div class="text-block-5">The update videos are currently filmed with a Canon g7xii in HD. We would like to capture this in 4K for the archive in the future. (Current camera overheats after 3 minutes..Dave is not a fan) We would like to have a Sony RX100 VII to setup up our game. Also if you happen to have an unsued gopro laying around? We could use it to make more timelapse videos :)<br><br>⭐️ Reward: Shoutout in Update video + Dave will record a custom video for you</div>
+          </nav>
         </div>
-      </div>
-      <div class="flex-wrapper">
-        <div class="html-embed btn w-embed">
-          <a href="#" style="width:100%;" data-clipboard-text="http://support.preciousplastic.com/" class="btn">Copy & Share</a>
-        </div>
-      </div>
-      <div class="social-icons-wrapper">
-        <div class="_w-inline-block w-embed">
-          <a class="w-inline-block social-share-btn fb" href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"> </a>
-        </div>
-        <div class="_w-inline-block w-embed">
-          <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20Check%20up%20this%20awesome%20content' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;"></a>
-        </div>
-        <a href="#" class="social-share-btn lkn w-inline-block">
-          <div class="_w-inline-block w-embed">
-            <a class="w-inline-block social-share-btn lnk" href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' + encodeURIComponent(document.title)); return false;"></a>
+        <div data-hover="" data-delay="0" class="sponser-drowdown w-dropdown">
+          <div class="dropdown-toggle-5 w-dropdown-toggle"><img src="images/61JmstnzkvL._AC_SL1080_.png" loading="lazy" width="50" height="50" srcset="images/61JmstnzkvL._AC_SL1080_-p-500.png 500w, images/61JmstnzkvL._AC_SL1080_-p-800.png 800w, images/61JmstnzkvL._AC_SL1080_.png 1080w" sizes="50px" alt="">
+            <div class="div-block-12">
+              <div class="text-block-4 title">Provide us a woodchipper - €5K</div>
+              <div class="text-block-4 red yellow">Medium priority </div>
+            </div>
+            <div class="w-icon-dropdown-toggle"></div>
           </div>
-        </a>
+          <nav class="dropdown-list-3 w-dropdown-list"><img src="images/chopper.jpg" loading="eager" sizes="100vw" srcset="images/chopper-p-500.jpeg 500w, images/chopper-p-800.jpeg 800w, images/chopper.jpg 900w" alt="" class="image-31">
+            <div class="text-block-5">Our land is full of mimosa trees. It’s a non native tree species that should be contained. This means that throughout the years we will need to cut many trees (and replacing them by others)  We would love to chip this wood. The woodchips are perfect for covering soil, mulching and creating pathways. The machines needs to be able to chip fresh trees up to 10CM diameter. You can support by donating money or let us know if you have a (good quality) woodchipper laying around.<br><br>⭐️ Reward: We will write your name on the woodchipper</div>
+          </nav>
+        </div>
+        <div data-hover="" data-delay="0" class="sponser-drowdown w-dropdown">
+          <div class="dropdown-toggle-5 w-dropdown-toggle"><img src="images/house_1.png" loading="lazy" width="50" height="50" alt="">
+            <div class="div-block-12">
+              <div class="text-block-4 title">Fund Our first guesthouse - €40K</div>
+            </div>
+            <div class="w-icon-dropdown-toggle"></div>
+          </div>
+          <nav class="dropdown-list-3 w-dropdown-list"><img src="images/house.jpg" loading="eager" sizes="100vw" srcset="images/house-p-500.jpeg 500w, images/house-p-800.jpeg 800w, images/house.jpg 900w" alt="" class="image-31">
+            <div class="text-block-5">Project Kamp is not for tourism, its a place to live and work. However we would have visitors dropping by experts, specialist, ecologist etc. We would like to be able to host them so they can share their wisdom with us. (and we share with you in a video) This would be the first comfortable, proper housing structure in Project Kamp. Sorry Vans, we love you but  its not for everyone..<br>‍<br>⭐️ Reward: You have the only tourist exception. You can always drop by and stay in the guesthouse :)</div>
+          </nav>
+        </div>
+        <div data-hover="" data-delay="0" class="sponser-drowdown w-dropdown">
+          <div class="dropdown-toggle-5 w-dropdown-toggle"><img src="images/kamp.png" loading="lazy" width="50" height="50" srcset="images/kamp-p-500.png 500w, images/kamp-p-800.png 800w, images/kamp.png 1109w" sizes="50px" alt="">
+            <div class="div-block-12">
+              <div class="text-block-4 title">Workspace renovation - €60K</div>
+              <div class="text-block-4 red">High priority </div>
+            </div>
+            <div class="w-icon-dropdown-toggle"></div>
+          </div>
+          <nav class="dropdown-list-3 w-dropdown-list"><img src="images/workspace_01.jpg" loading="eager" sizes="100vw" srcset="images/workspace_01-p-800.jpeg 800w, images/workspace_01.jpg 900w" alt="" class="image-31">
+            <div class="text-block-5">The core of our project is the workspace. This is from where we research and develop. Build prototypes and test new technologies. Currently its an old burned down shed. We need to renovate it. Make architectural plans, rebuild the structure, add electricity, clear the area round and add solar panels to the roof. As a bonus try-out we want to make 1 wall from Precious Plastic :)<br><br>⭐️ Reward: We will make a memorial tile for you at the entrance</div>
+          </nav>
+        </div>
+        <div data-hover="" data-delay="0" class="sponser-drowdown w-dropdown">
+          <div class="dropdown-toggle-5 w-dropdown-toggle"><img src="images/forrest.png" loading="lazy" width="50" height="50" alt="">
+            <div class="div-block-12">
+              <div class="text-block-4 title">Reforestation (Carbon offset) - €80K</div>
+            </div>
+            <div class="w-icon-dropdown-toggle"></div>
+          </div>
+          <nav class="dropdown-list-3 w-dropdown-list"><img src="images/forrest.jpg" loading="eager" sizes="100vw" srcset="images/forrest-p-500.jpeg 500w, images/forrest-p-800.jpeg 800w, images/forrest.jpg 900w" alt="" class="image-31">
+            <div class="text-block-5">The entire land was fully burned down in 2017, destroying a big part of the native trees. Now whats is growing back is basically 1 species, mimosas. A non native invasive tree that grows fast and takes the sunlight for other plants. This makes it in the long term very hard to create a healthy diverse forrest life and will have much higher changes for wild fires again in the future. Forrest fires are a big challenge in Portugal but we can help to prevent them. We will work with ecologists to analyse the land, create a landscape plan, clean the current land and start planting a strong forrest. For years to come.<br><br>⭐️ Reward: Offset your footprint, we name the the forrest after you</div>
+          </nav>
+        </div>
+        <div data-hover="" data-delay="0" class="sponser-drowdown w-dropdown">
+          <div class="dropdown-toggle-5 w-dropdown-toggle"><img src="images/solar.png" loading="lazy" width="50" height="50" alt="">
+            <div class="div-block-12">
+              <div class="text-block-4 title">Hook us up to solar - €100K</div>
+            </div>
+            <div class="w-icon-dropdown-toggle"></div>
+          </div>
+          <nav class="dropdown-list-3 w-dropdown-list"><img src="images/soalr.jpg" loading="eager" alt="" class="image-31">
+            <div class="text-block-5">Running 100% on renewable energy is a long term goal for us. Easy to achieve for a small household, difficult to achieve with 380V machines like welding and a metal lathe. Is requires a big battery pack and enough panels. It’s mainly a long term goals because it would take us a while before we have the funds. You can speed this up by providing the capital or sponsoring it.<br><br>⭐️ Reward: We will mention your name/help/company in our videos</div>
+          </nav>
+        </div>
       </div>
     </div>
   </div>
@@ -109,7 +134,7 @@
     </a>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5a37d9885085cc0001bbcb7a" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="js/project-kamp.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script type="text/javascript" src="https://milankyncl.github.io/jquery-copy-to-clipboard/jquery.copy-to-clipboard.js"></script>
   <script>
