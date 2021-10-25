@@ -1534,6 +1534,10 @@ a {
   background-color: #cfcfcf;
 }
 
+.dropdown-toggle-5.hide {
+  display: none;
+}
+
 .text-block-4 {
   display: -webkit-box;
   display: -webkit-flex;
