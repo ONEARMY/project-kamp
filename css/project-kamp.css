@@ -1,3 +1,8 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
 .w-embed-youtubevideo {
   width: 100%;
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
@@ -1324,7 +1329,7 @@ a {
   padding: 2px 8px;
   font-size: 12px;
   font-weight: 400;
-  display: inline-block;
+  display: none;
 }
 
 .text-block-4.red.yellow {
@@ -1333,10 +1338,15 @@ a {
 
 .text-block-4.red.yellow.mix {
   background-color: #62c9e9;
+  display: none;
 }
 
 .text-block-4.red.green {
   background-color: #77d36b;
+}
+
+.text-block-4.red.iconfunded {
+  display: none;
 }
 
 .text-block-4.title {
@@ -1374,6 +1384,10 @@ a {
 
 .text-block-5.strike {
   text-decoration: line-through;
+}
+
+.text-block-5.done {
+  text-decoration: none;
 }
 
 .div-block-12 {
@@ -1765,7 +1779,7 @@ a {
 }
 
 .heading-16 {
-  color: #fff;
+  color: var(--white);
   text-align: center;
   text-transform: none;
   font-family: Klima, sans-serif;
@@ -1776,7 +1790,7 @@ a {
 }
 
 .body-3 {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .fullblock {
@@ -2089,7 +2103,7 @@ a {
 
 .season2 {
   width: 100%;
-  display: none;
+  display: block;
   overflow: hidden;
 }
 
