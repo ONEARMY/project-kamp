@@ -2208,6 +2208,66 @@ a {
   display: flex;
 }
 
+.grid-2 {
+  grid-template: "Area"
+                 "."
+                 "."
+                 / 1fr 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: stretch;
+}
+
+.div-block-18 {
+  width: 120px;
+}
+
+.teammember {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+}
+
+.teampic {
+  width: 120px;
+  border-radius: 120px;
+}
+
+.teammembertitle {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.teammembertext {
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.teammemberlink {
+  font-size: 12px;
+}
+
+.teammemberflag {
+  width: 100%;
+}
+
+.image-40 {
+  width: 25px;
+  float: none;
+  text-align: center;
+  margin-top: -18px;
+  display: inline-block;
+  position: relative;
+  right: auto;
+}
+
+.closed {
+  color: red;
+}
+
 @media screen and (max-width: 991px) {
   .thumbnail {
     width: 33%;
@@ -3198,6 +3258,76 @@ a {
 
   .heading-22 {
     line-height: 45px;
+  }
+
+  .grid-2 {
+    grid-template: "Area"
+                   "."
+                   "."
+                   "."
+                   / 1fr;
+    display: block;
+  }
+
+  .teammember {
+    width: 100%;
+    height: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: left;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+  }
+
+  .teampic {
+    width: 70px;
+    height: 70px;
+    text-align: left;
+  }
+
+  .teammembertitle {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    display: block;
+  }
+
+  .teammemberflag {
+    width: auto;
+    display: block;
+  }
+
+  .image-40 {
+    width: 20px;
+    float: none;
+    margin-top: -22px;
+    margin-left: 25px;
+  }
+
+  .teamavatar {
+    width: 70px;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+}
+
+#w-node-c8b2b487-183c-abe7-1841-7b33de69f9b0-8db2bbbc, #w-node-e37e550e-d1c0-4e9b-a1c6-26883978f6c6-8db2bbbc, #w-node-b8214586-bda4-e859-fa8d-63353025870f-8db2bbbc, #w-node-a57b6fb3-d34b-898b-23e2-89225d3c2997-8db2bbbc, #w-node-ef6cb15f-4c53-ddcb-0db3-43343344d5ce-8db2bbbc, #w-node-_341d0ec1-9ab9-3600-d27d-c4021ac46eb5-8db2bbbc, #w-node-d2716d38-79bd-5be7-d23e-90f8ae9e5805-8db2bbbc, #w-node-a63f17b9-bd01-e33f-5697-2ff62b665923-8db2bbbc, #w-node-_36cb4001-a393-f78d-ec87-5b478ba695fc-8db2bbbc, #w-node-bcaf2311-a671-a9c9-7bdc-821be2105a61-8db2bbbc, #w-node-_0523b125-7614-9979-5166-91f662100ef7-8db2bbbc, #w-node-_3163a25f-d051-a580-e5c9-7c63dbeb62e4-8db2bbbc, #w-node-_9f7eb389-c75c-c8ed-3a16-26169c8bb4c8-8db2bbbc, #w-node-_6d931f84-9169-ffb3-e115-84529846f9e6-8db2bbbc, #w-node-ee2bd770-8208-8957-1d07-05dac73746ab-8db2bbbc, #w-node-_7b558195-7b68-1837-1468-11f536c9d352-8db2bbbc, #w-node-_8a970af1-ec49-d943-2746-90f1ade83421-8db2bbbc, #w-node-_1998a0f5-2450-314a-9c8a-cfda82fdd8cc-8db2bbbc, #w-node-e1f223b9-23d7-6180-9171-6514c69b20ef-8db2bbbc, #w-node-_704da49d-edde-236e-535e-6b546e4502c4-8db2bbbc, #w-node-_322e9960-2065-28b9-8dac-3bc4f9718948-8db2bbbc, #w-node-_9d5a5baf-4dfa-1d52-7d1f-a5e48cf97c92-8db2bbbc, #w-node-e1626929-bf1c-3dce-8384-014d1abb59c0-8db2bbbc, #w-node-_23e113a0-168d-161d-6feb-a22b14ac5a42-8db2bbbc, #w-node-f5efd4c0-f042-286e-951b-2c05e51d9d16-8db2bbbc, #w-node-ff4c4821-75b5-91b9-00ea-230a31007e9a-8db2bbbc, #w-node-_6df7be34-33b6-a0a5-9c50-2a99cc96cb09-8db2bbbc, #w-node-e7c5f8b3-ee4d-685d-a40d-98443d67397a-8db2bbbc, #w-node-_1de91a12-e49b-cb6e-74b3-01c4f16173b1-8db2bbbc, #w-node-_5f388071-159b-c019-73a9-065d3c406901-8db2bbbc, #w-node-_1da27a3b-6ac0-9099-30d3-f00cf9bad7f9-8db2bbbc {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: auto;
+  justify-self: center;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-c8b2b487-183c-abe7-1841-7b33de69f9b0-8db2bbbc, #w-node-e37e550e-d1c0-4e9b-a1c6-26883978f6c6-8db2bbbc, #w-node-b8214586-bda4-e859-fa8d-63353025870f-8db2bbbc, #w-node-a57b6fb3-d34b-898b-23e2-89225d3c2997-8db2bbbc, #w-node-ef6cb15f-4c53-ddcb-0db3-43343344d5ce-8db2bbbc, #w-node-_341d0ec1-9ab9-3600-d27d-c4021ac46eb5-8db2bbbc, #w-node-d2716d38-79bd-5be7-d23e-90f8ae9e5805-8db2bbbc, #w-node-a63f17b9-bd01-e33f-5697-2ff62b665923-8db2bbbc, #w-node-_36cb4001-a393-f78d-ec87-5b478ba695fc-8db2bbbc, #w-node-bcaf2311-a671-a9c9-7bdc-821be2105a61-8db2bbbc, #w-node-_0523b125-7614-9979-5166-91f662100ef7-8db2bbbc, #w-node-_3163a25f-d051-a580-e5c9-7c63dbeb62e4-8db2bbbc, #w-node-_9f7eb389-c75c-c8ed-3a16-26169c8bb4c8-8db2bbbc, #w-node-_6d931f84-9169-ffb3-e115-84529846f9e6-8db2bbbc, #w-node-ee2bd770-8208-8957-1d07-05dac73746ab-8db2bbbc, #w-node-_7b558195-7b68-1837-1468-11f536c9d352-8db2bbbc, #w-node-_8a970af1-ec49-d943-2746-90f1ade83421-8db2bbbc, #w-node-_1998a0f5-2450-314a-9c8a-cfda82fdd8cc-8db2bbbc, #w-node-e1f223b9-23d7-6180-9171-6514c69b20ef-8db2bbbc, #w-node-_704da49d-edde-236e-535e-6b546e4502c4-8db2bbbc, #w-node-_322e9960-2065-28b9-8dac-3bc4f9718948-8db2bbbc, #w-node-_9d5a5baf-4dfa-1d52-7d1f-a5e48cf97c92-8db2bbbc, #w-node-e1626929-bf1c-3dce-8384-014d1abb59c0-8db2bbbc, #w-node-_23e113a0-168d-161d-6feb-a22b14ac5a42-8db2bbbc, #w-node-f5efd4c0-f042-286e-951b-2c05e51d9d16-8db2bbbc, #w-node-ff4c4821-75b5-91b9-00ea-230a31007e9a-8db2bbbc, #w-node-_6df7be34-33b6-a0a5-9c50-2a99cc96cb09-8db2bbbc, #w-node-e7c5f8b3-ee4d-685d-a40d-98443d67397a-8db2bbbc, #w-node-_1de91a12-e49b-cb6e-74b3-01c4f16173b1-8db2bbbc, #w-node-_5f388071-159b-c019-73a9-065d3c406901-8db2bbbc, #w-node-_1da27a3b-6ac0-9099-30d3-f00cf9bad7f9-8db2bbbc {
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: center;
+    justify-self: center;
   }
 }
 

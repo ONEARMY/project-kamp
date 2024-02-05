@@ -101,6 +101,9 @@ input.w-button {
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
+.w-code-block {
+  margin: unset;
+}
 .w-webflow-badge,
 .w-webflow-badge * {
   position: static;
