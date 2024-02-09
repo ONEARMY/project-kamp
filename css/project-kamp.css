@@ -2268,6 +2268,15 @@ a {
   color: red;
 }
 
+.priority {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #ff4c55;
+  border-radius: 5px;
+  padding: 4px 10px;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 991px) {
   .thumbnail {
     width: 33%;
