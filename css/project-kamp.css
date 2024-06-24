@@ -1174,6 +1174,10 @@ a {
   display: block;
 }
 
+.body-2.fundpage {
+  background-color: rgba(239, 239, 239, .7);
+}
+
 .one-army-footer {
   background-color: #27272c;
   justify-content: center;
@@ -1511,6 +1515,10 @@ a {
   color: #fff;
 }
 
+.menu-item.hide {
+  display: none;
+}
+
 .container-4 {
   max-width: 1200px;
   margin-top: 100px;
@@ -1656,7 +1664,18 @@ a {
 }
 
 .menubuttons {
+  margin-top: 0;
   margin-left: 60px;
+}
+
+.menubuttons.fund {
+  text-align: right;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 15px 10px 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
 }
 
 .seasonheader {
@@ -1942,6 +1961,11 @@ a {
 
 .menu {
   padding-right: 23px;
+}
+
+.dropdown-3.hide {
+  display: none;
+  overflow: visible;
 }
 
 .image-35 {
@@ -2312,6 +2336,235 @@ a {
   display: flex;
 }
 
+.crowdfund-header {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  text-align: center;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  margin-top: 0;
+  padding-top: 100px;
+  display: block;
+}
+
+.crowd-blog {
+  width: 70%;
+  height: auto;
+}
+
+.crowd-blog.small {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Klima, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.crowd-blog.small.center {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.crowd-text {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 6px;
+  width: 30%;
+  height: 100%;
+}
+
+.crowd-text.small {
+  margin-left: 20px;
+}
+
+.crowd-fundwrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.crowd-fundwrapper.small {
+  max-width: 1000px;
+}
+
+.headefund {
+  background-color: #8ab580;
+  width: 100%;
+  height: auto;
+}
+
+.crowdfunddata {
+  margin-top: 30px;
+}
+
+.h1fund {
+  text-align: left;
+  margin-top: 10px;
+  font-family: Klima, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pfund {
+  text-align: left;
+  text-indent: 0;
+  font-family: Klima, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.youtube {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.heading-fund {
+  text-transform: uppercase;
+  font-family: Klima, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+.sidebarfund {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: Klima, sans-serif;
+  font-size: 25px;
+}
+
+.text-block-7 {
+  border-radius: 6px;
+  padding: 10px;
+  font-family: Klima, sans-serif;
+  font-size: 20px;
+}
+
+.jointhem.mobile {
+  display: none;
+}
+
+.whitefund {
+  background-color: #fff;
+  border-radius: 6px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+.image-41 {
+  max-width: 200px;
+  margin-top: 40px;
+  margin-bottom: -100px;
+}
+
+.textwhite {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 70%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.topdonorinfo {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 6px;
+  width: 100%;
+  min-height: 10px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.fundbold {
+  font-size: 22px;
+}
+
+.topdonor {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  min-height: 10px;
+}
+
+.code-embed {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fundimage {
+  margin-bottom: 20px;
+}
+
+.button-fund {
+  color: #fff;
+  background-color: #4a95ff;
+  border-radius: 10px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 200px;
+  padding: 0 15px 5px;
+  display: flex;
+}
+
+.button-fund.green {
+  background-color: #5d8355;
+  border-radius: 6px;
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  padding: 5px 15px;
+}
+
+.image-42 {
+  color-scheme: normal;
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+
+.image-42.green {
+  background-color: rgba(138, 181, 128, 0);
+  width: 15px;
+  height: 15px;
+  margin-top: 0;
+}
+
+.heading-25 {
+  letter-spacing: 1px;
+  font-family: Klima, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.heading-25.green {
+  letter-spacing: 2px;
+  background-color: rgba(138, 181, 128, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.center, .section {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .thumbnail {
     width: 33%;
@@ -2593,6 +2846,10 @@ a {
     display: block;
   }
 
+  .menubuttons.fund {
+    max-height: 100px;
+  }
+
   .seasonheader {
     font-size: 27px;
   }
@@ -2664,6 +2921,19 @@ a {
 
   .achievement {
     margin-left: 0;
+  }
+
+  .crowd-blog, .crowd-text {
+    width: 50%;
+  }
+
+  .headefund {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .whitefund {
+    padding-left: 20px;
   }
 }
 
@@ -2933,6 +3203,52 @@ a {
 
   .mask-2 {
     overflow: hidden;
+  }
+
+  .crowdfund-header {
+    padding-top: 80px;
+  }
+
+  .crowd-blog, .crowd-text {
+    width: 100%;
+  }
+
+  .crowd-text.small {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .crowd-fundwrapper {
+    flex-flow: column;
+  }
+
+  .crowdfunddata {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .youtube {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .jointhem.desktop {
+    display: none;
+  }
+
+  .whitefund {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-left: 0;
+  }
+
+  .textwhite {
+    width: 100%;
+  }
+
+  .code-embed.mobile {
+    display: none;
   }
 }
 
@@ -3393,6 +3709,40 @@ a {
     height: 70px;
     margin-top: 5px;
     margin-left: 5px;
+  }
+
+  .crowdfund-header {
+    padding-top: 50px;
+  }
+
+  .crowd-blog.small {
+    font-size: 14px;
+  }
+
+  .h1fund {
+    font-size: 25px;
+  }
+
+  .pfund {
+    font-size: 14px;
+  }
+
+  .heading-fund {
+    font-size: 30px;
+  }
+
+  .jointhem.desktop {
+    display: none;
+  }
+
+  .jointhem.mobile {
+    text-align: center;
+    display: block;
+  }
+
+  .image-41.mobile {
+    text-align: center;
+    margin-bottom: 0;
   }
 }
 
