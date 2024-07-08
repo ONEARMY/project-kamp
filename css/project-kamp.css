@@ -1254,6 +1254,18 @@ a {
   display: flex;
 }
 
+.text.goal {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 3px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: Klima, sans-serif;
+  font-weight: 700;
+}
+
 .dropdown-list-3 {
   position: relative;
 }
@@ -2345,7 +2357,7 @@ a {
   grid-auto-columns: 1fr;
   justify-content: flex-start;
   margin-top: 0;
-  padding-top: 100px;
+  padding-top: 0;
   display: block;
 }
 
@@ -2367,6 +2379,13 @@ a {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 40px;
+}
+
+.crowd-blog.small.note {
+  background-color: #fdce4e;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .crowd-text {
@@ -2397,6 +2416,7 @@ a {
   background-color: #8ab580;
   width: 100%;
   height: auto;
+  padding-top: 40px;
 }
 
 .crowdfunddata {
@@ -2527,6 +2547,10 @@ a {
   padding: 5px 15px;
 }
 
+.button-fund.strike {
+  text-decoration: line-through;
+}
+
 .image-42 {
   color-scheme: normal;
   width: 20px;
@@ -2563,6 +2587,27 @@ a {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.global-styles {
+  display: block;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.reached {
+  text-align: center;
+  background-color: #fdce4e;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.paragraph-7 {
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3521,6 +3566,11 @@ a {
     white-space: normal;
   }
 
+  .text.goal {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   .dropdown-list-3.w--open {
     flex-direction: column;
     justify-content: center;
@@ -3743,6 +3793,10 @@ a {
   .image-41.mobile {
     text-align: center;
     margin-bottom: 0;
+  }
+
+  .paragraph-7 {
+    font-size: 15px;
   }
 }
 
