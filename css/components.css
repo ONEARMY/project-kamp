@@ -107,6 +107,9 @@ html[data-w-dynpage] [data-w-cloak] {
 pre.w-code-block code {
   all: inherit;
 }
+.w-optimization {
+  display: contents;
+}
 .w-webflow-badge,
 .w-webflow-badge * {
   position: static;

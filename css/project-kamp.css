@@ -66,17 +66,14 @@ a {
   padding-bottom: 20px;
   display: block;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
 }
 
 .tab-button {
   color: #fff;
   letter-spacing: 4px;
   text-transform: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   border: 2px #fff;
   border-radius: 2px;
   margin-bottom: 0;
@@ -91,7 +88,7 @@ a {
 
 .tab-button:hover {
   color: #fff;
-  background-color: rgba(255, 255, 255, .27);
+  background-color: #ffffff45;
   border-color: #fff;
 }
 
@@ -347,7 +344,7 @@ a {
 }
 
 .dropdown-list.w--open {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -564,9 +561,9 @@ a {
 }
 
 .text-block-navbar-dropdown-subtitle {
-  color: rgba(0, 0, 0, .58);
+  color: #00000094;
   cursor: pointer;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 12px;
 }
 
@@ -583,10 +580,7 @@ a {
   margin-top: 12px;
   margin-right: 20px;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
 }
 
 .navbar-cta.hide-mobile {
@@ -645,7 +639,7 @@ a {
 }
 
 .nav-dropdown-element:hover {
-  background-color: rgba(1, 0, 5, .05);
+  background-color: #0100050d;
 }
 
 .nav-dropdown-element.bottom {
@@ -659,7 +653,7 @@ a {
 }
 
 .nav-dropdown-element.top:hover {
-  background-color: rgba(1, 0, 5, .05);
+  background-color: #0100050d;
 }
 
 .text-button {
@@ -722,10 +716,7 @@ a {
   height: 70px;
   display: flex;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .main-container {
@@ -750,10 +741,7 @@ a {
   margin-top: 8px;
   margin-left: 30px;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .dropdown-toggle-4 {
@@ -763,7 +751,7 @@ a {
 }
 
 .h6 {
-  color: rgba(0, 0, 0, .5);
+  color: #00000080;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
@@ -830,7 +818,7 @@ a {
 .paragraph-2 {
   color: #000;
   margin-bottom: 30px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -845,7 +833,7 @@ a {
 }
 
 .coup-wrap {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -853,17 +841,14 @@ a {
   padding-right: 0%;
   display: flex;
   position: relative;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
   overflow: hidden;
 }
 
 .paragraph-big {
   color: #000;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 22px;
   line-height: 35px;
 }
@@ -1101,14 +1086,11 @@ a {
   margin-top: 5px;
   margin-left: 25px;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .footer-link {
-  color: rgba(0, 0, 0, .6);
+  color: #0009;
   text-align: left;
   font-size: 16px;
   font-weight: 400;
@@ -1143,10 +1125,7 @@ a {
   width: 300px;
   display: block;
   position: absolute;
-  top: 60px;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 60px 0% auto auto;
 }
 
 .ways-to-support {
@@ -1175,7 +1154,7 @@ a {
 }
 
 .body-2.fundpage {
-  background-color: rgba(239, 239, 239, .7);
+  background-color: #efefefb3;
 }
 
 .one-army-footer {
@@ -1187,10 +1166,7 @@ a {
   text-decoration: none;
   display: flex;
   position: relative;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .oa-link {
@@ -1379,7 +1355,7 @@ a {
   border: 1px #8ab580;
   margin-bottom: 30px;
   padding: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 15px;
   line-height: 24px;
   text-decoration: none;
@@ -1389,10 +1365,7 @@ a {
   flex: 0 auto;
   text-decoration: none;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .text-block-5.strike {
@@ -1417,7 +1390,7 @@ a {
 
 .menubutton {
   color: #8ab580;
-  background-color: rgba(255, 255, 255, .77);
+  background-color: #ffffffc4;
   border: 1px #fff;
   border-radius: 4px;
   margin-right: 10px;
@@ -1427,7 +1400,7 @@ a {
 }
 
 .menubutton:hover {
-  background-color: rgba(255, 255, 255, .56);
+  background-color: #ffffff8f;
 }
 
 .navbar-2 {
@@ -1436,10 +1409,7 @@ a {
   padding-bottom: 0;
   font-family: Varela Round, sans-serif;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .container-3 {
@@ -1504,8 +1474,7 @@ a {
 .manpower {
   text-align: center;
   flex-flow: column;
-  align-content: space-between;
-  justify-content: center;
+  place-content: space-between center;
   align-items: center;
   max-width: 800px;
   margin-bottom: 100px;
@@ -1764,7 +1733,7 @@ a {
 }
 
 .menutext.drop:hover {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: #0000001a;
 }
 
 .menutext.drop.w--current {
@@ -1960,8 +1929,7 @@ a {
 
 .background-video {
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
+  place-content: center;
   align-items: center;
   height: 800px;
   display: flex;
@@ -2255,10 +2223,8 @@ a {
                  "."
                  "."
                  / 1fr 1fr 1fr 1fr;
-  align-content: center;
-  justify-content: space-between;
-  align-items: start;
-  justify-items: stretch;
+  place-content: center space-between;
+  place-items: start stretch;
 }
 
 .div-block-18 {
@@ -2317,6 +2283,7 @@ a {
   border-radius: 5px;
   padding: 4px 10px;
   font-size: 14px;
+  display: none;
 }
 
 .patreon-subline {
@@ -2394,7 +2361,7 @@ a {
 }
 
 .crowd-text {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   border-radius: 6px;
   width: 30%;
   height: 100%;
@@ -2500,7 +2467,7 @@ a {
 }
 
 .topdonorinfo {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   border-radius: 6px;
   width: 100%;
   min-height: 10px;
@@ -2565,7 +2532,7 @@ a {
 }
 
 .image-42.green {
-  background-color: rgba(138, 181, 128, 0);
+  background-color: #8ab58000;
   width: 15px;
   height: 15px;
   margin-top: 0;
@@ -2581,7 +2548,7 @@ a {
 
 .heading-25.green {
   letter-spacing: 2px;
-  background-color: rgba(138, 181, 128, 0);
+  background-color: #8ab58000;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 16px;
@@ -2597,10 +2564,7 @@ a {
 .global-styles {
   display: block;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .reached {
@@ -2709,10 +2673,7 @@ a {
   .menu-button {
     background-color: #fff;
     position: fixed;
-    top: 5px;
-    bottom: auto;
-    left: auto;
-    right: 10px;
+    inset: 5px 10px auto auto;
   }
 
   .menu-button.w--open {
@@ -2723,7 +2684,7 @@ a {
   .menu-button.covi {
     opacity: 1;
     color: #000;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .support-option-money {
@@ -2770,7 +2731,7 @@ a {
   .icon-5 {
     color: #000;
     object-fit: fill;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
     display: block;
     position: relative;
   }
@@ -2823,7 +2784,7 @@ a {
   }
 
   .menu-button-2.w--open {
-    background-color: rgba(226, 226, 226, 0);
+    background-color: #e2e2e200;
   }
 
   .nav-menu-2 {
@@ -2848,7 +2809,7 @@ a {
   }
 
   .menu-item:hover {
-    background-color: rgba(59, 59, 59, .31);
+    background-color: #3b3b3b4f;
   }
 
   .menu-item.w--current {
@@ -2993,7 +2954,7 @@ a {
   }
 
   .tab-button:hover {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .thumbnail {
@@ -3114,7 +3075,7 @@ a {
   }
 
   .menu-button-2.w--open {
-    background-color: rgba(255, 255, 255, .24);
+    background-color: #ffffff3d;
     border-radius: 4px;
     margin-right: 30px;
   }
@@ -3247,8 +3208,7 @@ a {
   }
 
   .grid-2 {
-    align-items: start;
-    justify-items: stretch;
+    place-items: start stretch;
   }
 
   .mask-2 {
@@ -3402,7 +3362,7 @@ a {
 
   .menu-button.covi {
     opacity: 1;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
     margin-right: 0;
     display: block;
   }
@@ -3518,7 +3478,7 @@ a {
 
   .icon-5 {
     color: #000;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
     display: block;
   }
 
@@ -3807,15 +3767,13 @@ a {
 
 #w-node-c8b2b487-183c-abe7-1841-7b33de69f9b0-8db2bbbc, #w-node-e37e550e-d1c0-4e9b-a1c6-26883978f6c6-8db2bbbc, #w-node-b8214586-bda4-e859-fa8d-63353025870f-8db2bbbc, #w-node-a57b6fb3-d34b-898b-23e2-89225d3c2997-8db2bbbc, #w-node-ef6cb15f-4c53-ddcb-0db3-43343344d5ce-8db2bbbc, #w-node-_341d0ec1-9ab9-3600-d27d-c4021ac46eb5-8db2bbbc, #w-node-d2716d38-79bd-5be7-d23e-90f8ae9e5805-8db2bbbc, #w-node-a63f17b9-bd01-e33f-5697-2ff62b665923-8db2bbbc, #w-node-_36cb4001-a393-f78d-ec87-5b478ba695fc-8db2bbbc, #w-node-bcaf2311-a671-a9c9-7bdc-821be2105a61-8db2bbbc, #w-node-_0523b125-7614-9979-5166-91f662100ef7-8db2bbbc, #w-node-_3163a25f-d051-a580-e5c9-7c63dbeb62e4-8db2bbbc, #w-node-_9f7eb389-c75c-c8ed-3a16-26169c8bb4c8-8db2bbbc, #w-node-_6d931f84-9169-ffb3-e115-84529846f9e6-8db2bbbc, #w-node-ee2bd770-8208-8957-1d07-05dac73746ab-8db2bbbc, #w-node-_7b558195-7b68-1837-1468-11f536c9d352-8db2bbbc, #w-node-_1998a0f5-2450-314a-9c8a-cfda82fdd8cc-8db2bbbc, #w-node-e1f223b9-23d7-6180-9171-6514c69b20ef-8db2bbbc, #w-node-_704da49d-edde-236e-535e-6b546e4502c4-8db2bbbc, #w-node-_322e9960-2065-28b9-8dac-3bc4f9718948-8db2bbbc, #w-node-_9d5a5baf-4dfa-1d52-7d1f-a5e48cf97c92-8db2bbbc, #w-node-e1626929-bf1c-3dce-8384-014d1abb59c0-8db2bbbc, #w-node-_23e113a0-168d-161d-6feb-a22b14ac5a42-8db2bbbc, #w-node-f5efd4c0-f042-286e-951b-2c05e51d9d16-8db2bbbc, #w-node-ff4c4821-75b5-91b9-00ea-230a31007e9a-8db2bbbc, #w-node-_6df7be34-33b6-a0a5-9c50-2a99cc96cb09-8db2bbbc, #w-node-e7c5f8b3-ee4d-685d-a40d-98443d67397a-8db2bbbc, #w-node-_1de91a12-e49b-cb6e-74b3-01c4f16173b1-8db2bbbc, #w-node-_5f388071-159b-c019-73a9-065d3c406901-8db2bbbc, #w-node-_1da27a3b-6ac0-9099-30d3-f00cf9bad7f9-8db2bbbc, #w-node-ebb8ddb7-8bd9-3169-ce1e-51b498ab6e06-8db2bbbc, #w-node-_3d1eda38-e347-5601-8b29-ce0a7013508f-8db2bbbc, #w-node-_82918780-7904-b326-2ce1-8a3f7315fdac-8db2bbbc {
   grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: auto;
-  justify-self: center;
+  place-self: auto center;
 }
 
 @media screen and (max-width: 479px) {
   #w-node-c8b2b487-183c-abe7-1841-7b33de69f9b0-8db2bbbc, #w-node-e37e550e-d1c0-4e9b-a1c6-26883978f6c6-8db2bbbc, #w-node-b8214586-bda4-e859-fa8d-63353025870f-8db2bbbc, #w-node-a57b6fb3-d34b-898b-23e2-89225d3c2997-8db2bbbc, #w-node-ef6cb15f-4c53-ddcb-0db3-43343344d5ce-8db2bbbc, #w-node-_341d0ec1-9ab9-3600-d27d-c4021ac46eb5-8db2bbbc, #w-node-d2716d38-79bd-5be7-d23e-90f8ae9e5805-8db2bbbc, #w-node-a63f17b9-bd01-e33f-5697-2ff62b665923-8db2bbbc, #w-node-_36cb4001-a393-f78d-ec87-5b478ba695fc-8db2bbbc, #w-node-bcaf2311-a671-a9c9-7bdc-821be2105a61-8db2bbbc, #w-node-_0523b125-7614-9979-5166-91f662100ef7-8db2bbbc, #w-node-_3163a25f-d051-a580-e5c9-7c63dbeb62e4-8db2bbbc, #w-node-_9f7eb389-c75c-c8ed-3a16-26169c8bb4c8-8db2bbbc, #w-node-_6d931f84-9169-ffb3-e115-84529846f9e6-8db2bbbc, #w-node-ee2bd770-8208-8957-1d07-05dac73746ab-8db2bbbc, #w-node-_7b558195-7b68-1837-1468-11f536c9d352-8db2bbbc, #w-node-_1998a0f5-2450-314a-9c8a-cfda82fdd8cc-8db2bbbc, #w-node-e1f223b9-23d7-6180-9171-6514c69b20ef-8db2bbbc, #w-node-_704da49d-edde-236e-535e-6b546e4502c4-8db2bbbc, #w-node-_322e9960-2065-28b9-8dac-3bc4f9718948-8db2bbbc, #w-node-_9d5a5baf-4dfa-1d52-7d1f-a5e48cf97c92-8db2bbbc, #w-node-e1626929-bf1c-3dce-8384-014d1abb59c0-8db2bbbc, #w-node-_23e113a0-168d-161d-6feb-a22b14ac5a42-8db2bbbc, #w-node-f5efd4c0-f042-286e-951b-2c05e51d9d16-8db2bbbc, #w-node-ff4c4821-75b5-91b9-00ea-230a31007e9a-8db2bbbc, #w-node-_6df7be34-33b6-a0a5-9c50-2a99cc96cb09-8db2bbbc, #w-node-e7c5f8b3-ee4d-685d-a40d-98443d67397a-8db2bbbc, #w-node-_1de91a12-e49b-cb6e-74b3-01c4f16173b1-8db2bbbc, #w-node-_5f388071-159b-c019-73a9-065d3c406901-8db2bbbc, #w-node-_1da27a3b-6ac0-9099-30d3-f00cf9bad7f9-8db2bbbc, #w-node-ebb8ddb7-8bd9-3169-ce1e-51b498ab6e06-8db2bbbc, #w-node-_3d1eda38-e347-5601-8b29-ce0a7013508f-8db2bbbc, #w-node-_82918780-7904-b326-2ce1-8a3f7315fdac-8db2bbbc {
     grid-area: 1 / 1 / 2 / 2;
-    align-self: center;
-    justify-self: center;
+    place-self: center;
   }
 }
 
