@@ -2579,6 +2579,17 @@ a {
   letter-spacing: 2px;
 }
 
+.applications-team-header {
+  text-align: left;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-family: Klima, sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   .thumbnail {
     width: 33%;
