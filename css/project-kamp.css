@@ -1,3 +1,51 @@
+@font-face {
+  font-family: Klima;
+  src: url('../fonts/klima-regular-italic.otf') format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Klima;
+  src: url('../fonts/klima-bold.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Klima;
+  src: url('../fonts/klima-bold-italic.otf') format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Klima;
+  src: url('../fonts/klima-regular.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Klima;
+  src: url('../fonts/klima-black.otf') format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Klima;
+  src: url('../fonts/klima-black-italic.otf') format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --white: white;
   --black: black;
@@ -1261,6 +1309,10 @@ a {
   width: 100%;
   margin-bottom: 10px;
   font-size: 20px;
+}
+
+.sponser-drowdown.hide {
+  margin-bottom: 0;
 }
 
 .image-31 {
@@ -2588,6 +2640,10 @@ a {
   font-size: 14px;
   line-height: 15px;
   display: block;
+}
+
+.applications-team-header.hide {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
