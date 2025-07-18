@@ -2031,7 +2031,7 @@ a {
 .fullscreenheader {
   background-image: url('../images/header.jpg');
   background-position: 0 0;
-  background-size: auto;
+  background-size: cover;
   justify-content: center;
   align-items: center;
   width: 100%;
