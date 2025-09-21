@@ -2643,7 +2643,7 @@ a {
 }
 
 .applications-team-header.hide {
-  display: block;
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
