@@ -1309,6 +1309,7 @@ a {
   width: 100%;
   margin-bottom: 10px;
   font-size: 20px;
+  display: block;
 }
 
 .sponser-drowdown.hide {
@@ -1344,7 +1345,7 @@ a {
   border-radius: 4px;
 }
 
-.dropdown-toggle-5.hide {
+.dropdown-toggle-5.workforce.hide, .dropdown-toggle-5.hide {
   display: none;
 }
 
@@ -2169,6 +2170,10 @@ a {
   overflow: hidden;
 }
 
+.season3 {
+  width: 100%;
+}
+
 .link-3 {
   font-size: 18px;
 }
@@ -2634,7 +2639,7 @@ a {
 .applications-team-header {
   text-align: left;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 30px;
   margin-bottom: 2px;
   font-family: Klima, sans-serif;
   font-size: 14px;
@@ -2643,7 +2648,7 @@ a {
 }
 
 .applications-team-header.hide {
-  display: none;
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
