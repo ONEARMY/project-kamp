@@ -107,6 +107,9 @@ html[data-w-dynpage] [data-w-cloak] {
 pre.w-code-block code {
   all: inherit;
 }
+pre.w-code-block code > span {
+  display: block !important;
+}
 .w-optimization {
   display: contents;
 }
@@ -1682,6 +1685,10 @@ textarea.w-select {
 .w--nav-dropdown-list-open {
   position: static;
 }
+/**
+ * NOTE: These rules are overridden in site-designer.less to use container queries instead of media queries
+ * when the navbar is inside a Frame on the Open Canvas.
+ */
 @media screen and (max-width: 991px) {
   .w-nav[data-collapse='medium'] .w-nav-menu {
     display: none;
@@ -1787,4 +1794,12 @@ textarea.w-select {
 }
 .wf-layout-layout {
   display: grid;
+}
+.w-layout-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
 }

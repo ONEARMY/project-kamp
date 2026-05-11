@@ -155,9 +155,9 @@ a {
 
 .thumbnail {
   float: left;
-  line-height: auto;
   width: 30%;
   height: 340px;
+  line-height: auto;
   margin-left: 1.5%;
   margin-right: 1.5%;
   padding-left: 40px;
@@ -228,10 +228,10 @@ a {
 }
 
 .text-block-2 {
-  direction: ltr;
   text-align: left;
   letter-spacing: 2px;
   text-transform: none;
+  direction: ltr;
   border: 1px #000;
   font-family: Open Sans, sans-serif;
   text-decoration: none;
@@ -3381,8 +3381,8 @@ a {
   .text-span-2 {
     float: none;
     clear: none;
-    direction: ltr;
     text-align: center;
+    direction: ltr;
     width: auto;
     display: block;
     position: static;
