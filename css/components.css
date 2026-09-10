@@ -98,6 +98,24 @@ html.w-mod-touch * {
 input.w-button {
   -webkit-appearance: button;
 }
+:where(button.w-popover-trigger) {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+.w-popover {
+  position-anchor: none;
+}
+.w-popover[popover]:not(:popover-open) {
+  display: none;
+}
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
@@ -1120,11 +1138,6 @@ textarea.w-select {
 }
 .w-dropdown-link:focus {
   outline: 0;
-}
-@media screen and (max-width: 767px) {
-  .w-nav-brand {
-    padding-left: 10px;
-  }
 }
 /**
  * ## Note
