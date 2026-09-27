@@ -98,6 +98,24 @@ html.w-mod-touch * {
 input.w-button {
   -webkit-appearance: button;
 }
+:where(button.w-popover-trigger) {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+.w-popover {
+  position-anchor: none;
+}
+.w-popover[popover]:not(:popover-open) {
+  display: none;
+}
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
@@ -106,6 +124,9 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 pre.w-code-block code {
   all: inherit;
+}
+pre.w-code-block code > span {
+  display: block !important;
 }
 .w-optimization {
   display: contents;
@@ -1118,11 +1139,6 @@ textarea.w-select {
 .w-dropdown-link:focus {
   outline: 0;
 }
-@media screen and (max-width: 767px) {
-  .w-nav-brand {
-    padding-left: 10px;
-  }
-}
 /**
  * ## Note
  * Safari (on both iOS and OS X) does not handle viewport units (vh, vw) well.
@@ -1682,6 +1698,10 @@ textarea.w-select {
 .w--nav-dropdown-list-open {
   position: static;
 }
+/**
+ * NOTE: These rules are overridden in site-designer.less to use container queries instead of media queries
+ * when the navbar is inside a Frame on the Open Canvas.
+ */
 @media screen and (max-width: 991px) {
   .w-nav[data-collapse='medium'] .w-nav-menu {
     display: none;
@@ -1787,4 +1807,12 @@ textarea.w-select {
 }
 .wf-layout-layout {
   display: grid;
+}
+.w-layout-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
 }
